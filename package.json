@@ -1,0 +1,32 @@
+{
+  "name": "top5demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-npm": "npm i",
+    "setup:playwright-browsers": "npx playwright install",
+    "test:playwright-headless": "playwright test tests/playwright.test.js",
+    "test:playwright-headed": "playwright test --headed  tests/playwright.test.js",
+    "test:testcafe": "testcafe chrome tests/testcafe.test.js",
+    "test:nightwatch": "nightwatch --config nightwatch.conf.js",
+    "test:puppeteer": "node tests/puppeteer.test.js",
+    "test:selenium": "node tests/selenium.test.js",
+    "test:cypress": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "cypress": "^13.16.0",
+    "selenium-webdriver": "^4.27.0",
+    "chromedriver": "^131.0.1",
+    "testcafe": "^3.7.0",
+    "puppeteer": "^23.9.0",
+    "nightwatch": "^3.9.0"
+  }
+}
