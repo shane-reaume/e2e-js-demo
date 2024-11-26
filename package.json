@@ -1,5 +1,5 @@
 {
-  "name": "top5demo",
+  "name": "e2e-js-demo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -18,15 +18,15 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.49.0"
+    "@playwright/test": "^1.49.0",
+    "cypress": "^13.16.0",
+    "testcafe": "^3.7.0",
+    "nightwatch": "^3.9.0",
+    "chromedriver": "^131.0.1"
   },
   "dependencies": {
     "playwright": "^1.49.0",
-    "cypress": "^13.16.0",
     "selenium-webdriver": "^4.27.0",
-    "chromedriver": "^131.0.1",
-    "testcafe": "^3.7.0",
-    "puppeteer": "^23.9.0",
-    "nightwatch": "^3.9.0"
+    "puppeteer": "^23.9.0"
   }
 }
