@@ -1,16 +1,16 @@
 {
   "name": "e2e-js-demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "build-npm": "npm i",
     "setup:playwright-browsers": "npx playwright install",
-    "test:playwright-headless": "playwright test tests/playwright.test.js",
+    "test:playwright-headless": "playwright test tests-pw/playwright.test.js",
     "test:playwright-headed": "playwright test --headed  tests/playwright.test.js",
-    "test:testcafe": "testcafe chrome tests/testcafe.test.js",
+    "test:testcafe": "testcafe chrome tests-tc/testcafe.test.js",
     "test:nightwatch": "nightwatch --config nightwatch.conf.js",
-    "test:puppeteer": "node tests/puppeteer.test.js",
-    "test:selenium": "node tests/selenium.test.js",
+    "test:puppeteer": "node tests-puptr/puppeteer.test.js",
+    "test:selenium": "node tests-Se/selenium.test.js",
     "test:cypress": "npx cypress open"
   },
   "keywords": [],
