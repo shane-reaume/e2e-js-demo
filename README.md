@@ -3,6 +3,8 @@ A demo repository for exploring and running top web testing frameworks.
 This project supports the blog post 
 [Top 5 Web Testing Frameworks for 2024](https://shaneofalltrades.com/2024/11/21/top-5-web-testing-frameworks-2024/).
 
+<img alt="A cluster of Icons for each end-to-end framework" height="300" src="https://shaneofalltrades.com/images/endtoend-300x300.png" title="End-to-End Framework Icon Set" width="300"/>
+
 ---
 
 ## Summary
