@@ -6,7 +6,7 @@
     "build-npm": "npm i",
     "setup:playwright-browsers": "npx playwright install",
     "test:playwright-headless": "playwright test tests-pw/playwright.test.js",
-    "test:playwright-headed": "playwright test --headed  tests/playwright.test.js",
+    "test:playwright-headed": "playwright test --headed  tests-pw/playwright.test.js",
     "test:testcafe": "testcafe chrome tests-tc/testcafe.test.js",
     "test:nightwatch": "nightwatch --config nightwatch.conf.js",
     "test:puppeteer": "node tests-puptr/puppeteer.test.js",

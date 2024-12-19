@@ -1,4 +1,3 @@
-// tests/playwright.test.js
 const { test, expect } = require('@playwright/test');
 test('Validate framework article title', async ({ page }) => {
   // Navigate to the website

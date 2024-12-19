@@ -131,3 +131,5 @@ dist
 /package-lock.json
 /tests_output/
 /test-results/
+
+.idea/
